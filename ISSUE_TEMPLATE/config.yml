@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: VeritasChain Website
+    url: https://veritaschain.org
+    about: Visit our official website for more information
+  - name: VCP Specification
+    url: https://github.com/veritaschain/vcp-spec
+    about: View the official VCP v1.0 specification
+  - name: VC-Certified Program
+    url: https://veritaschain.org/certified/
+    about: Learn about the VC-Certified certification program
+  - name: Contact Support
+    url: mailto:support@veritaschain.org
+    about: Contact the VeritasChain support team directly

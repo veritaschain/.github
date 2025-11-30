@@ -1,0 +1,101 @@
+name: Documentation Issue
+description: Report documentation errors, suggest improvements, or request new documentation
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve our documentation!
+        Please fill out the sections below.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Documentation Issue
+      options:
+        - Error or inaccuracy
+        - Missing information
+        - Unclear or confusing
+        - Typo or grammatical error
+        - Translation issue
+        - Request for new documentation
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Documentation URL
+      description: Link to the documentation page (if applicable)
+      placeholder: https://veritaschain.org/docs/...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: document
+    attributes:
+      label: Document
+      description: Which document is affected?
+      options:
+        - VCP Specification
+        - SDK Specification
+        - Sidecar Integration Guide
+        - Conformance Test Guide
+        - Explorer API Reference
+        - Explorer User Guide
+        - Website content
+        - README files
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Which language version is affected?
+      options:
+        - English
+        - Japanese (日本語)
+        - Chinese (中文)
+        - All languages
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Content
+      description: What does the documentation currently say? (copy/paste the relevant text)
+      placeholder: Paste the current documentation text here...
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Change
+      description: What should the documentation say instead?
+      placeholder: Describe or provide the corrected/improved text...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other information that would help us address this issue
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues to ensure this has not already been reported
+          required: true
+        - label: I am willing to submit a PR to fix this issue (optional)
+          required: false
