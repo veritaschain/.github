@@ -14,7 +14,7 @@
   <a href="https://veritaschain.org/explorer/app/">🔍 Explorer</a> •
   <a href="https://github.com/veritaschain/vcp-spec">📋 Specification</a> •
   <a href="#-quick-start-5-minutes">⚡ Quick Start</a> •
-  <a href="https://certified.veritaschain.org">✅ Get Certified</a>
+  <a href="https://veritaschain.org/certified/">✅ Get Certified</a>
 </p>
 
 <p align="center">
