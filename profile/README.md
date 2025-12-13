@@ -33,6 +33,16 @@ Zenodo. https://doi.org/10.5281/zenodo.17920524
 
 ---
 
+## 📄 Academic Reference (Preprint)
+
+Kamimura, T. (2025).  
+*Hybrid Post-Quantum Signatures for Tamper-Evident Audit Trails:  
+Formal Security Analysis and Design Trade-offs.*  
+Zenodo. https://doi.org/10.5281/zenodo.17920524
+
+> This paper presents a research-oriented cryptographic design and formal security analysis;  
+> it is **not** a finalized protocol specification.
+
 ## 📖 What is VCP?
 
 **VeritasChain Protocol (VCP)** is the world's first open standard for creating **immutable, cryptographically verifiable audit trails** in algorithmic and AI-driven trading systems.
@@ -54,16 +64,6 @@ VCP provides a universal audit format that enables:
 | **Digital Signatures** | Ed25519 signatures prove event authenticity |
 | **Merkle Proofs** | RFC 6962-compliant proofs for external verification |
 | **Regulatory Alignment** | EU AI Act, MiFID II, SEC/FINRA, FCA ready |
-
-## 📄 Academic Reference (Preprint)
-
-Kamimura, T. (2025).  
-*Hybrid Post-Quantum Signatures for Tamper-Evident Audit Trails:  
-Formal Security Analysis and Design Trade-offs.*  
-Zenodo. https://doi.org/10.5281/zenodo.17920524
-
-> This paper presents a research-oriented cryptographic design and formal security analysis;  
-> it is **not** a finalized protocol specification.
 
 ---
 
