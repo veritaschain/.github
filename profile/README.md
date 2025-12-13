@@ -55,6 +55,9 @@ VCP provides a universal audit format that enables:
 | **Merkle Proofs** | RFC 6962-compliant proofs for external verification |
 | **Regulatory Alignment** | EU AI Act, MiFID II, SEC/FINRA, FCA ready |
 
+### Research Paper (Preprint)
+Formal security analysis of VCP (post-quantum audit trails):  
+https://doi.org/10.5281/zenodo.17920524
 ---
 
 ## ⚡ Quick Start (5 Minutes)
