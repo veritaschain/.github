@@ -31,7 +31,7 @@
 Kamimura, T. (2025).  
 *Hybrid Post-Quantum Signatures for Tamper-Evident Audit Trails:  
 Formal Security Analysis and Design Trade-offs.*  
-Zenodo. https://doi.org/10.5281/zenodo.17920524
+Zenodo. https://zenodo.org/records/17920524
 
 > This paper presents a research-oriented cryptographic design and formal security analysis;  
 > it is **not** a finalized protocol specification.
