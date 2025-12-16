@@ -36,6 +36,25 @@ Zenodo. https://doi.org/10.5281/zenodo.17920524
 > This paper presents a research-oriented cryptographic design and formal security analysis;  
 > it is **not** a finalized protocol specification.
 
+---
+
+## AI Decision Auditability Benchmark (v1.0)
+
+A vendor-neutral benchmark for evaluating the **auditability and evidence quality** of AI and algorithmic decision systems.
+
+- Designed for audit, assurance, and compliance teams  
+- 10 criteria / 20-point evaluation scale  
+- Minimal assessment executable in ~3 hours  
+- Aligned with EU AI Act (Articles 12, 13, 14, 17) and MiFID II / RTS requirements  
+
+Canonical reference (released v1.0):  
+https://github.com/veritaschain/vcp-spec/tree/main/benchmark
+
+Theoretical foundation (preprint):  
+Why Open Cryptographic Standards Matter for AI Auditability  
+https://zenodo.org/records/17947483
+
+
 ## 📖 What is VCP?
 
 **VeritasChain Protocol (VCP)** is the world's first open standard for creating **immutable, cryptographically verifiable audit trails** in algorithmic and AI-driven trading systems.
