@@ -38,6 +38,18 @@ Zenodo. https://zenodo.org/records/17920524
 
 ---
 
+## 📜 Internet-Draft (IETF – in preparation)
+
+An Internet-Draft is in preparation to propose VCP as a
+SCITT-aligned auditability profile for algorithmic trading systems.
+
+*Status:* Draft in progress (not yet submitted to IETF Datatracker)
+
+- Working title: **SCITT Profile for Verifiable Trading Audit Trails**
+- Target WG: **IETF SCITT (Security Area)**
+
+---
+
 ## AI Decision Auditability Benchmark (v1.0)
 
 A vendor-neutral benchmark for evaluating the **auditability and evidence quality** of AI and algorithmic decision systems.
