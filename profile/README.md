@@ -256,5 +256,5 @@ See [CONTRIBUTING.md](https://github.com/veritaschain/vcp-spec/blob/main/CONTRIB
 <p align="center">
   <strong>VeritasChain Standards Organization (VSO)</strong><br/>
   <em>Independent, vendor-neutral standards body for algorithmic trading auditability</em><br/><br/>
-  © 2025 VeritasChain Inc. All rights reserved.
+  © 2025-2026 VeritasChain Standards Organization (VSO).
 </p>
