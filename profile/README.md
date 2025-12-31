@@ -223,7 +223,7 @@ curl -H "Authorization: Bearer $VCP_API_KEY" \
 
 | Phase | Status | Description |
 |-------|--------|-------------|
-| **1. Standardization** | ✅ Complete | VCP v1.0 Spec, SDKs, Explorer |
+| **1. Standardization** | ✅ Complete | VCP Spec, SDKs, Explorer |
 | **2. Platformization** | 🚧 In Progress | VeritasChain Cloud (VCC) |
 | **3. Certification** | 📅 Q1 2025 | VC-Certified program launch |
 | **4. Universalization** | 📅 Future | Blockchain anchoring, PQC |
