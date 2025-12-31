@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/VCP-v1.0-blue?style=flat-square" alt="VCP Version"/>
+  <img src="https://img.shields.io/badge/VCP-v1.1-blue?style=flat-square" alt="VCP Version"/>
   <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square" alt="Status"/>
   <img src="https://img.shields.io/badge/License-CC%20BY%204.0-green?style=flat-square" alt="License"/>
   <img src="https://img.shields.io/badge/Languages-EN%20|%20JA%20|%20ZH-orange?style=flat-square" alt="Languages"/>
