@@ -50,6 +50,21 @@ SCITT-aligned auditability profile for algorithmic trading systems.
 
 ---
 
+## 📌 Canonical Specification
+
+The canonical (normative) specification of VeritasChain Protocol (VCP)
+is maintained in the following repository and directory structure:
+
+```text
+vcp-spec/
+ └─ spec/
+    ├─ v1.1/   (current)
+    └─ v1.0/   (legacy)
+All other formats (HTML, PDF, translations) are non-normative.
+```
+
+---
+
 ## AI Decision Auditability Benchmark (v1.0)
 
 A vendor-neutral benchmark for evaluating the **auditability and evidence quality** of AI and algorithmic decision systems.
