@@ -174,6 +174,7 @@ curl -H "Authorization: Bearer $VCP_API_KEY" \
 | [**vcp-spec**](https://github.com/veritaschain/vcp-spec) | 📋 Official VCP v1.0 Specification | Protocol implementers |
 | [**vcp-sdk-spec**](https://github.com/veritaschain/vcp-sdk-spec) | 🛠️ SDK Interface (TypeScript/Python/MQL5) | SDK developers |
 | [**vcp-explorer-api**](https://github.com/veritaschain/vcp-explorer-api) | 🔍 Explorer GUI & API | Verification & audit |
+| [**vcp-rta-reference**](https://github.com/veritaschain/vcp-rta-reference) | 🧪 Non-certified reference implementation (audit trail demo) | Evaluation, PoC |
 | [**vcp-sidecar-guide**](https://github.com/veritaschain/vcp-sidecar-guide) | 🔌 MT4/MT5/cTrader Integration | Platform integrators |
 | [**vcp-site**](https://github.com/veritaschain/vcp-site) | 🌐 Official Website | - |
 | [**vcp-market-intelligence**](https://github.com/veritaschain/vcp-market-intelligence) | 📊 Industry Reports | Business stakeholders |
