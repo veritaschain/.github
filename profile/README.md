@@ -60,8 +60,8 @@ vcp-spec/
  └─ spec/
     ├─ v1.1/   (current)
     └─ v1.0/   (legacy)
-All other formats (HTML, PDF, translations) are non-normative.
 ```
+All other formats (HTML, PDF, translations) are non-normative.
 
 ---
 
