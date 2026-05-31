@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/VCP-v1.1-blue?style=flat-square" alt="VCP Version"/>
+  <img src="https://img.shields.io/badge/VCP-v1.2-blue?style=flat-square" alt="VCP Version"/>
   <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square" alt="Status"/>
   <img src="https://img.shields.io/badge/License-CC%20BY%204.0-green?style=flat-square" alt="License"/>
   <img src="https://img.shields.io/badge/Languages-EN%20|%20JA%20|%20ZH-orange?style=flat-square" alt="Languages"/>
@@ -58,7 +58,8 @@ is maintained in the following repository and directory structure:
 ```text
 vcp-spec/
  └─ spec/
-    ├─ v1.1/   (current)
+    ├─ v1.2/   (current)
+    ├─ v1.1/   (legacy)
     └─ v1.0/   (legacy)
 ```
 All other formats (HTML, PDF, translations) are non-normative.
