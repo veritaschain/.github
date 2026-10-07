@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/VCP-v1.2-blue?style=flat-square" alt="VCP Version"/>
-  <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/badge/VCP-v1.2%20RC1-blue?style=flat-square" alt="VCP Version"/>
+  <img src="https://img.shields.io/badge/Status-Release%20Candidate-orange?style=flat-square" alt="Status"/>
   <img src="https://img.shields.io/badge/License-CC%20BY%204.0-green?style=flat-square" alt="License"/>
   <img src="https://img.shields.io/badge/Languages-EN%20|%20JA%20|%20ZH-orange?style=flat-square" alt="Languages"/>
 </p>
@@ -38,15 +38,17 @@ Zenodo. https://zenodo.org/records/17920524
 
 ---
 
-## 📜 Internet-Draft (IETF – in preparation)
+## 📜 Internet-Draft (IETF)
 
-An Internet-Draft is in preparation to propose VCP as a
-SCITT-aligned auditability profile for algorithmic trading systems.
+VCP's SCITT profile for verifiable audit trails in algorithmic trading is published
+in the IETF Datatracker as an **active individual Internet-Draft**.
 
-*Status:* Draft in progress (not yet submitted to IETF Datatracker)
+- Document: [`draft-kamimura-scitt-vcp-03`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/)
+- Revision date: **2026-07-21**
+- Status: **Active Internet-Draft (individual)**; not adopted by any IETF Working Group.
 
-- Working title: **SCITT Profile for Verifiable Trading Audit Trails**
-- Target WG: **IETF SCITT (Security Area)**
+This individual submission is a work in progress, is not an RFC or an IETF-endorsed
+standard, and has no formal standing in the IETF standards process.
 
 ---
 
@@ -58,10 +60,15 @@ is maintained in the following repository and directory structure:
 ```text
 vcp-spec/
  └─ spec/
-    ├─ v1.2/   (current)
+    ├─ v1.2/   (current, Release Candidate / RC1)
     ├─ v1.1/   (legacy)
     └─ v1.0/   (legacy)
 ```
+The [canonical v1.2 specification](https://github.com/veritaschain/vcp-spec/blob/main/spec/v1.2/VCP-Specification-v1_2_en.md)
+is currently **Release Candidate (RC1)**. The
+[GA cutover PR](https://github.com/veritaschain/vcp-spec/pull/1) is not yet merged;
+Production Ready / Released status is not reflected in the canonical repository.
+
 All other formats (HTML, PDF, translations) are non-normative.
 
 ---
