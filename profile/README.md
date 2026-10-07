@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/VCP-v1.2%20RC1-blue?style=flat-square" alt="VCP Version"/>
-  <img src="https://img.shields.io/badge/Status-Release%20Candidate-orange?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/badge/VCP-v1.2-blue?style=flat-square" alt="VCP Version"/>
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square" alt="Status"/>
   <img src="https://img.shields.io/badge/License-CC%20BY%204.0-green?style=flat-square" alt="License"/>
   <img src="https://img.shields.io/badge/Languages-EN%20|%20JA%20|%20ZH-orange?style=flat-square" alt="Languages"/>
 </p>
@@ -60,14 +60,14 @@ is maintained in the following repository and directory structure:
 ```text
 vcp-spec/
  └─ spec/
-    ├─ v1.2/   (current, Release Candidate / RC1)
+    ├─ v1.2/   (current, Production Ready)
     ├─ v1.1/   (legacy)
     └─ v1.0/   (legacy)
 ```
 The [canonical v1.2 specification](https://github.com/veritaschain/vcp-spec/blob/main/spec/v1.2/VCP-Specification-v1_2_en.md)
-is currently **Release Candidate (RC1)**. The
-[GA cutover PR](https://github.com/veritaschain/vcp-spec/pull/1) is not yet merged;
-Production Ready / Released status is not reflected in the canonical repository.
+is **Production Ready**, following the merge of the
+[GA cutover PR](https://github.com/veritaschain/vcp-spec/pull/1).
+See the [canonical repository](https://github.com/veritaschain/vcp-spec) for release artifacts and known issues.
 
 All other formats (HTML, PDF, translations) are non-normative.
 
