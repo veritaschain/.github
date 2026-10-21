@@ -114,79 +114,24 @@ VCP provides a universal audit format that enables:
 
 ---
 
-## ⚡ Quick Start (5 Minutes)
+## ⚡ Getting Started
 
-### Python
+### SDK packages — coming soon
 
-```bash
-pip install veritaschain
-```
+As checked on **2026-10-22 (JST)**, the public npm registry returned 404 for
+`@veritaschain/sdk`, and PyPI returned 404 for `veritaschain`. These names are
+not currently verified public VSO SDK releases. Do not install packages under
+these names based on older examples; availability alone would not establish
+VSO ownership or authenticity.
 
-```python
-from veritaschain import VcpLogger, create_event
-import os
+The PyPI package `vcp-sdk` belongs to **Value Context Protocol**, a separate
+project. It is not a substitute for the VeritasChain Protocol (VCP) SDK.
 
-# Initialize
-logger = VcpLogger(
-    endpoint="https://api.veritaschain.org/v1",
-    api_key=os.environ["VCP_API_KEY"]
-)
-
-# Log a trading signal
-event = create_event("SIG", {
-    "venue_id": "MT5_DEMO",
-    "symbol": "EURUSD",
-    "account_id": "demo_account",
-    "vcp_gov": {
-        "algo_id": "my-strategy-v1",
-        "confidence_score": "0.85"
-    }
-})
-
-logger.log(event)
-logger.flush()
-print(f"✅ Logged: {event.header.event_id}")
-```
-
-### TypeScript
-
-```bash
-npm install @veritaschain/sdk
-```
-
-```typescript
-import { createLogger, createEvent } from '@veritaschain/sdk';
-
-const logger = createLogger({
-  endpoint: 'https://api.veritaschain.org/v1',
-  apiKey: process.env.VCP_API_KEY!
-});
-
-const event = createEvent('ORD', {
-  venueId: 'EXCHANGE_01',
-  symbol: 'BTCUSD',
-  accountId: 'trader_123',
-  vcpTrade: {
-    orderId: 'ord_001',
-    side: 'BUY',
-    price: '42150.50',
-    quantity: '0.5'
-  }
-});
-
-await logger.log(event);
-console.log(`✅ Logged: ${event.header.eventId}`);
-```
-
-### Verify with Explorer API
-
-```bash
-# Get Merkle proof (no server trust required)
-curl -H "Authorization: Bearer $VCP_API_KEY" \
-  https://explorer.veritaschain.org/api/v1/events/{event_id}/proof
-```
-
-📚 **Full Examples:** [Python SDK Guide](https://github.com/veritaschain/vcp-sdk-spec/blob/main/examples/python/) | [Explorer API Guide](https://github.com/veritaschain/vcp-explorer-api/blob/main/docs/API_QUICKSTART.md)
+Start with the [SDK interface specification](https://github.com/veritaschain/vcp-sdk-spec)
+or the [Python reference implementation](https://github.com/veritaschain/vcp-rta-reference).
+For the Explorer API, follow its [local setup and implementation status](https://github.com/veritaschain/vcp-explorer-api#quick-start).
+Official installation instructions will be added after package publication and
+publisher verification.
 
 ---
 
