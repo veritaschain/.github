@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://veritaschain.org/assets/img/logo.png" alt="VeritasChain Protocol" width="180"/>
+  <img src="https://veritaschain.org/assets/img/logo.png" alt="VeritasChain Standards Organization (VSO)" width="180"/>
 </p>
 
 <h1 align="center">VeritasChain Standards Organization (VSO)</h1>
@@ -46,6 +46,12 @@ current public claims pending review. This does not establish a count of zero.
 See the [dated correction](https://github.com/veritaschain/vap-spec/blob/main/disclosures/2026-10-24-commercial-contracts.md).
 Commercial service activity is separate from external implementations,
 independent validation and accepted Evidence Packs.
+
+**Integrity review — 24 October 2026:** VCP v1.1/v1.2 alignment with VAP v1.2
+is under review; full conformance has not been established. The
+[technical-errata](https://github.com/veritaschain/vcp-spec/pull/3) and
+[normative-change](https://github.com/veritaschain/vcp-spec/pull/4) drafts are
+unadopted proposals, not an issued repair or a production-validation result.
 
 ### Unadopted research implementation and reproduction kit
 
@@ -152,7 +158,7 @@ VCP defines record structures and verification requirements, including:
 |------------|-------------|
 | **Hash Chain** | SHA-256 linked events create tamper-evident audit trails |
 | **Digital Signatures** | Ed25519 signatures bind signed bytes to a key under the verifier's trust policy |
-| **Merkle Proofs** | RFC 6962-compliant proofs for external verification |
+| **Merkle Proofs** | RFC 6962 construction is required by VCP §6.2.1; the published builder and proof examples have known discrepancies under review. See the [pinned observations](https://github.com/veritaschain/vap-spec/blob/9fa5fbc68075079b4599e16940e9078db976cd59/experiments/vcp-v1.2-integrity-alignment/README.md) |
 | **Evidence assessment** | Specification mappings support review; they do not establish regulatory approval or legal compliance |
 
 ---
@@ -182,6 +188,9 @@ publisher verification.
 
 | Repository | Description | For |
 |------------|-------------|-----|
+| [**vap-spec**](https://github.com/veritaschain/vap-spec) | VAP framework, Draft 3; common requirements and current disclosures | Framework/profile reviewers |
+| [**cap-spec**](https://github.com/veritaschain/cap-spec) | Content profile; VAP mapping draft published, conformance unestablished | Content provenance implementers |
+| [**cpp-spec**](https://github.com/veritaschain/cpp-spec) | Capture profile; VAP conformance unestablished | Capture provenance implementers |
 | [**vcp-spec**](https://github.com/veritaschain/vcp-spec) | 📋 Official VeritasChain Protocol (VCP) Specification (canonical, versioned) | Protocol implementers |
 | [**vcp-sdk-spec**](https://github.com/veritaschain/vcp-sdk-spec) | 🛠️ SDK Interface (TypeScript/Python/MQL5) | SDK developers |
 | [**vcp-explorer-api**](https://github.com/veritaschain/vcp-explorer-api) | 🔍 Explorer API; [GUI maintained separately](https://github.com/veritaschain/vcp-explorer-gui) | Verification & audit |
@@ -215,7 +224,7 @@ We welcome contributions from the community!
 - 💬 **Discussions:** Ask questions, share ideas
 - 🔧 **Pull Requests:** Contribute code or docs
 
-See [CONTRIBUTING.md](https://github.com/veritaschain/vcp-spec/blob/main/CONTRIBUTING.md) for guidelines.
+See [CONTRIBUTING.md](https://github.com/veritaschain/.github/blob/main/CONTRIBUTING.md) for guidelines.
 
 ---
 
