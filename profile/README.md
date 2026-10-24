@@ -40,9 +40,12 @@ These are separate statuses; publication is not independent validation or certif
 
 The [September 2026 implementation disclosure](https://github.com/veritaschain/vap-spec#implementation-status-mandatory-disclosure)
 reports zero external implementations and zero Evidence Packs accepted in proceedings.
-It separately reports ten paid service contracts held by the operating company.
-This is a dated self-disclosure, not a fresh contract audit; service contracts are
-not external implementations, independent validation, or accepted Evidence Packs.
+**Correction — 24 October 2026:** the earlier commercial contract figure has not
+been substantiated by reconciliation with primary records and is withdrawn from
+current public claims pending review. This does not establish a count of zero.
+See the [dated correction](https://github.com/veritaschain/vap-spec/blob/main/disclosures/2026-10-24-commercial-contracts.md).
+Commercial service activity is separate from external implementations,
+independent validation and accepted Evidence Packs.
 
 ### Unadopted research implementation and reproduction kit
 
