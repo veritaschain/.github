@@ -81,17 +81,21 @@ Zenodo. https://zenodo.org/records/17920524
 
 ---
 
-## 📜 Internet-Draft (IETF)
+## 📜 Internet-Drafts (IETF)
 
-VCP's SCITT profile for verifiable audit trails in algorithmic trading is published
-in the IETF Datatracker as an **active individual Internet-Draft**.
+Five individual Internet-Drafts are active in the IETF Datatracker (checked 2026-10-24).
+None has been adopted by an IETF Working Group.
 
-- Document: [`draft-kamimura-scitt-vcp-03`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/)
-- Revision date: **2026-07-21**
-- Status: **Active Internet-Draft (individual)**; not adopted by any IETF Working Group.
+| Draft | Revision | Expires |
+| --- | --- | --- |
+| [`draft-kamimura-vap-framework`](https://datatracker.ietf.org/doc/draft-kamimura-vap-framework/) | -01 (2026-07-21) | 2027-01-22 |
+| [`draft-kamimura-scitt-vcp`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/) | -03 (2026-07-21) | 2027-01-22 |
+| [`draft-kamimura-rats-behavioral-evidence`](https://datatracker.ietf.org/doc/draft-kamimura-rats-behavioral-evidence/) | -02 (2026-07-21) | 2027-01-22 |
+| [`draft-kamimura-scitt-refusal-events`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-refusal-events/) | -03 (2026-08-02) | 2027-02-03 |
+| [`draft-vso-cpp-core`](https://datatracker.ietf.org/doc/draft-vso-cpp-core/) | -03 (2026-08-02) | 2027-02-03 |
 
-This individual submission is a work in progress, is not an RFC or an IETF-endorsed
-standard, and has no formal standing in the IETF standards process.
+Individual submissions are works in progress. They are not RFCs or IETF-endorsed
+standards and have no formal standing in the IETF standards process.
 
 ---
 
