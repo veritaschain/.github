@@ -5,10 +5,13 @@ contact_links:
     about: Visit our official website for more information
   - name: VCP Specification
     url: https://github.com/veritaschain/vcp-spec
-    about: View the official VCP v1.0 specification
+    about: View the VCP specification (current version v1.2)
+  - name: VAP Framework Specification
+    url: https://github.com/veritaschain/vap-spec
+    about: View the VAP metaframework (v1.2, Draft 3)
   - name: VC-Certified Program
     url: https://veritaschain.org/certified/
-    about: Learn about the VC-Certified certification program
+    about: Learn about the VC-Certified program (no independent CAB is currently registered)
   - name: Contact Support
     url: mailto:support@veritaschain.org
     about: Contact the VeritasChain support team directly
