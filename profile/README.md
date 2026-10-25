@@ -34,7 +34,7 @@ These are separate statuses; publication is not independent validation or certif
 | --- | --- |
 | **VeritasChain Protocol (VCP)** | Finance profile; **v1.2 specification GA, 2026-07-06**. See the [canonical specification and known issues](https://github.com/veritaschain/vcp-spec). This does not establish production suitability of every implementation. |
 | **Verifiable AI Provenance Framework (VAP)** | **v1.2 Draft 3**. See the [framework repository](https://github.com/veritaschain/vap-spec). An individual Internet-Draft is not IETF adoption. |
-| **SDK interfaces and reference code** | [Interface specification](https://github.com/veritaschain/vcp-sdk-spec) and [VCP v1.1 reference implementation](https://github.com/veritaschain/vcp-rta-reference) are published. They are not a verified, complete VCP v1.2 SDK package distribution. See the package-availability notice below. |
+| **SDK interfaces and reference code** | [Interface specification](https://github.com/veritaschain/vcp-sdk-spec) and [VCP v1.1 reference implementation](https://github.com/veritaschain/vcp-rta-reference) are published. An [offline core for VCP v1.2](https://github.com/veritaschain/vcp-sdk) (v0.1.0, pre-release, first-party; Python, TypeScript, MQL5) is published on GitHub only. None of these is a certified SDK or a package-registry distribution. See the package-availability notice below. |
 | **Explorer** | [API](https://github.com/veritaschain/vcp-explorer-api) and [GUI](https://github.com/veritaschain/vcp-explorer-gui) repositories are published; consult each repository's implementation status and setup instructions. |
 | **Research implementation and reproduction kit** | **Experimental and unadopted**. Kit `b1af0dc`; subject `c8ccf97`. Internal validation is recorded; **independent third-party reproduction has not been established**. |
 
@@ -180,7 +180,11 @@ VSO ownership or authenticity.
 The PyPI package `vcp-sdk` belongs to **Value Context Protocol**, a separate
 project. It is not a substitute for the VeritasChain Protocol (VCP) SDK.
 
-Start with the [SDK interface specification](https://github.com/veritaschain/vcp-sdk-spec)
+For producing and verifying VCP v1.2 events offline, use
+[vcp-sdk](https://github.com/veritaschain/vcp-sdk) (v0.1.0, pre-release), installed
+from its GitHub repository; its README lists what it does and does not check, and
+a `VALID` result from it is not a conformance claim. For the v1.1 SDK interfaces,
+start with the [SDK interface specification](https://github.com/veritaschain/vcp-sdk-spec)
 or the [Python reference implementation](https://github.com/veritaschain/vcp-rta-reference).
 For the Explorer API, follow its [local setup and implementation status](https://github.com/veritaschain/vcp-explorer-api#quick-start).
 Official installation instructions will be added after package publication and
@@ -197,6 +201,7 @@ publisher verification.
 | [**cpp-spec**](https://github.com/veritaschain/cpp-spec) | Capture profile; VAP conformance unestablished | Capture provenance implementers |
 | [**vcp-spec**](https://github.com/veritaschain/vcp-spec) | 📋 Official VeritasChain Protocol (VCP) Specification (canonical, versioned) | Protocol implementers |
 | [**vcp-sdk-spec**](https://github.com/veritaschain/vcp-sdk-spec) | 🛠️ SDK Interface (TypeScript/Python/MQL5) | SDK developers |
+| [**vcp-sdk**](https://github.com/veritaschain/vcp-sdk) | 🧰 Offline core for VCP v1.2 (Python/TypeScript/MQL5); v0.1.0 pre-release, first-party, not certified | Implementers, auditors |
 | [**vcp-explorer-api**](https://github.com/veritaschain/vcp-explorer-api) | 🔍 Explorer API; [GUI maintained separately](https://github.com/veritaschain/vcp-explorer-gui) | Verification & audit |
 | [**vcp-rta-reference**](https://github.com/veritaschain/vcp-rta-reference) | 🧪 Non-certified reference implementation (audit trail demo) | Evaluation, PoC |
 | [**vcp-sidecar-guide**](https://github.com/veritaschain/vcp-sidecar-guide) | 🔌 MT4/MT5/cTrader Integration | Platform integrators |
