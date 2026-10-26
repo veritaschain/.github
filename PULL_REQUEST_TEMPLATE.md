@@ -26,6 +26,9 @@ Fixes #
 <!-- Which component(s) does this PR affect? -->
 
 - [ ] VCP Specification
+- [ ] VAP Framework Specification
+- [ ] CAP Specification
+- [ ] CPP Specification
 - [ ] VCP Explorer API
 - [ ] VCP Explorer GUI
 - [ ] VCP SDK (TypeScript)

@@ -2,12 +2,19 @@
 
 ## Supported Versions
 
-The following versions of VeritasChain Protocol (VCP) are currently supported with security updates:
+This organization-wide policy applies to VSO specifications and first-party code. Repositories may give more specific instructions in their own SECURITY.md (for example [vap-spec](https://github.com/veritaschain/vap-spec/blob/main/SECURITY.md)); where they differ, the repository's policy applies.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
-| < 1.0   | :x:                |
+Specification versions that receive security-relevant errata:
+
+| Specification | Version | Supported |
+| ------------- | ------- | --------- |
+| VCP | 1.2.x (Released) | :white_check_mark: |
+| VCP | 1.1.x | Known issues recorded; migrate to 1.2 |
+| VCP | 1.0.x | :x: |
+| VAP | 1.2.0 (Draft 3) | :white_check_mark: |
+| VAP | 1.1.x | :white_check_mark: (superseded for new work) |
+| CAP | 1.0 (Released) | :white_check_mark: |
+| CPP | 1.4 (Released) | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
@@ -21,7 +28,7 @@ Instead, please report them via email to:
 
 📧 **security@veritaschain.org**
 
-If you prefer encrypted communication, please contact us first to obtain our PGP key.
+If you need an encrypted exchange, send a non-sensitive initial message so we can agree on a suitable channel. VSO does not currently publish a verified PGP key; availability of a key must not be assumed.
 
 ### What to Include
 
@@ -37,17 +44,19 @@ Please include the following information in your report:
 
 ### Response Timeline
 
-| Action | Timeline |
+These are operational targets, not a guaranteed service level. Business days mean Monday–Friday, excluding Japanese public holidays (Asia/Tokyo).
+
+| Action | Target |
 | ------ | -------- |
-| Initial response | Within 48 hours |
-| Status update | Within 7 days |
-| Vulnerability assessment | Within 14 days |
+| Initial response | Within 2 business days of receipt |
+| Status update | Aim for 7 calendar days after acknowledgment |
+| Vulnerability assessment | Aim for 14 calendar days after acknowledgment |
 | Fix development | Depends on severity |
-| Public disclosure | After fix is released |
+| Public disclosure | Coordinate timing and scope with the reporter, considering risk and remediation |
 
 ### What to Expect
 
-1. **Acknowledgment**: We will acknowledge receipt of your vulnerability report within 48 hours.
+1. **Acknowledgment**: We aim to acknowledge receipt of your vulnerability report within 2 business days.
 
 2. **Communication**: We will keep you informed about the progress of addressing the vulnerability.
 

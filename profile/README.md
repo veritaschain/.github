@@ -83,16 +83,16 @@ Zenodo. https://zenodo.org/records/17920524
 
 ## 📜 Internet-Drafts (IETF)
 
-Five individual Internet-Drafts are active in the IETF Datatracker (checked 2026-10-24).
+Five individual Internet-Drafts are active in the IETF Datatracker (checked 2026-10-25).
 None has been adopted by an IETF Working Group.
 
 | Draft | Revision | Expires |
 | --- | --- | --- |
-| [`draft-kamimura-vap-framework`](https://datatracker.ietf.org/doc/draft-kamimura-vap-framework/) | -01 (2026-07-21) | 2027-01-22 |
-| [`draft-kamimura-scitt-vcp`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/) | -03 (2026-07-21) | 2027-01-22 |
+| [`draft-kamimura-vap-framework`](https://datatracker.ietf.org/doc/draft-kamimura-vap-framework/) | -02 (2026-10-24) | 2027-04-27 |
+| [`draft-kamimura-scitt-vcp`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/) | -05 (2026-10-24) | 2027-04-27 |
 | [`draft-kamimura-rats-behavioral-evidence`](https://datatracker.ietf.org/doc/draft-kamimura-rats-behavioral-evidence/) | -02 (2026-07-21) | 2027-01-22 |
-| [`draft-kamimura-scitt-refusal-events`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-refusal-events/) | -03 (2026-08-02) | 2027-02-03 |
-| [`draft-vso-cpp-core`](https://datatracker.ietf.org/doc/draft-vso-cpp-core/) | -03 (2026-08-02) | 2027-02-03 |
+| [`draft-kamimura-scitt-refusal-events`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-refusal-events/) | -04 (2026-10-24) | 2027-04-27 |
+| [`draft-vso-cpp-core`](https://datatracker.ietf.org/doc/draft-vso-cpp-core/) | -04 (2026-10-24) | 2027-04-27 |
 
 Individual submissions are works in progress. They are not RFCs or IETF-endorsed
 standards and have no formal standing in the IETF standards process.
@@ -160,7 +160,7 @@ VCP defines record structures and verification requirements, including:
 
 | Capability | Description |
 |------------|-------------|
-| **Hash Chain** | SHA-256 linked events create tamper-evident audit trails |
+| **Hash Chain** | Optional PrevHash linking of events at every tier since VCP v1.1 (RECOMMENDED for Gold and Platinum, VCP v1.2 HCH-002); Merkle batching and external anchoring are required at every tier |
 | **Digital Signatures** | Ed25519 signatures bind signed bytes to a key under the verifier's trust policy |
 | **Merkle Proofs** | RFC 6962 construction is required by VCP §6.2.1; the published builder and proof examples have known discrepancies under review. See the [pinned observations](https://github.com/veritaschain/vap-spec/blob/9fa5fbc68075079b4599e16940e9078db976cd59/experiments/vcp-v1.2-integrity-alignment/README.md) |
 | **Evidence assessment** | Specification mappings support review; they do not establish regulatory approval or legal compliance |

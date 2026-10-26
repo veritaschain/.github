@@ -67,6 +67,9 @@ body:
       description: Which component is affected?
       options:
         - VCP Specification
+        - VAP Framework Specification
+        - CAP Specification (Content / Creative AI Profile)
+        - CPP Specification (Capture Provenance Profile)
         - VCP Explorer API
         - VCP Explorer GUI
         - VCP SDK (TypeScript)
