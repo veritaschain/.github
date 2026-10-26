@@ -160,7 +160,7 @@ VCP defines record structures and verification requirements, including:
 
 | Capability | Description |
 |------------|-------------|
-| **Hash Chain** | Optional PrevHash linking of events (tier-dependent since VCP v1.1); Merkle batching and external anchoring are required at every tier |
+| **Hash Chain** | Optional PrevHash linking of events at every tier since VCP v1.1 (RECOMMENDED for Gold and Platinum, VCP v1.2 HCH-002); Merkle batching and external anchoring are required at every tier |
 | **Digital Signatures** | Ed25519 signatures bind signed bytes to a key under the verifier's trust policy |
 | **Merkle Proofs** | RFC 6962 construction is required by VCP §6.2.1; the published builder and proof examples have known discrepancies under review. See the [pinned observations](https://github.com/veritaschain/vap-spec/blob/9fa5fbc68075079b4599e16940e9078db976cd59/experiments/vcp-v1.2-integrity-alignment/README.md) |
 | **Evidence assessment** | Specification mappings support review; they do not establish regulatory approval or legal compliance |
