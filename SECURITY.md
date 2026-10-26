@@ -12,6 +12,7 @@ Specification versions that receive security-relevant errata:
 | VCP | 1.1.x | Known issues recorded; migrate to 1.2 |
 | VCP | 1.0.x | :x: |
 | VAP | 1.2.0 (Draft 3) | :white_check_mark: |
+| VAP | 1.1.x | :white_check_mark: (superseded for new work) |
 | CAP | 1.0 (Released) | :white_check_mark: |
 | CPP | 1.4 (Released) | :white_check_mark: |
 
@@ -51,7 +52,7 @@ These are operational targets, not a guaranteed service level. Business days mea
 | Status update | Aim for 7 calendar days after acknowledgment |
 | Vulnerability assessment | Aim for 14 calendar days after acknowledgment |
 | Fix development | Depends on severity |
-| Public disclosure | After fix is released |
+| Public disclosure | Coordinate timing and scope with the reporter, considering risk and remediation |
 
 ### What to Expect
 
