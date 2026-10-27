@@ -34,6 +34,7 @@ These are separate statuses; publication is not independent validation or certif
 | --- | --- |
 | **VeritasChain Protocol (VCP)** | Finance profile; **v1.2 specification GA, 2026-07-06**. See the [canonical specification and known issues](https://github.com/veritaschain/vcp-spec). This does not establish production suitability of every implementation. |
 | **Verifiable AI Provenance Framework (VAP)** | **v1.2 Draft 3**. See the [framework repository](https://github.com/veritaschain/vap-spec). An individual Internet-Draft is not IETF adoption. |
+| **VAP-LAP — Legal AI Profile** | **Proposed domain profile**; individual Internet-Draft `-05`. [Overview and AILEX product/use-case reference](https://veritaschain.org/vap/lap/). |
 | **SDK interfaces and reference code** | [Interface specification](https://github.com/veritaschain/vcp-sdk-spec) and [VCP v1.1 reference implementation](https://github.com/veritaschain/vcp-rta-reference) are published. An [offline core for VCP v1.2](https://github.com/veritaschain/vcp-sdk) (v0.1.0, pre-release, first-party; Python, TypeScript, MQL5) is published on GitHub only. None of these is a certified SDK or a package-registry distribution. See the package-availability notice below. |
 | **Explorer** | [API](https://github.com/veritaschain/vcp-explorer-api) and [GUI](https://github.com/veritaschain/vcp-explorer-gui) repositories are published; consult each repository's implementation status and setup instructions. |
 | **Research implementation and reproduction kit** | **Experimental and unadopted**. Kit `b1af0dc`; subject `c8ccf97`. Internal validation is recorded; **independent third-party reproduction has not been established**. |
@@ -69,6 +70,28 @@ or [日本語手順](https://github.com/veritaschain/vap-spec/blob/b1af0dc9d368b
 
 ---
 
+## VAP-LAP — Legal AI Profile (proposed)
+
+VAP-LAP proposes a domain profile for legal AI workflows, including consultation,
+document drafting, fact checking and human review. The published proposal is
+[draft-ailex-vap-legal-ai-provenance-05][lap-draft]
+(26 October 2026; profile version 0.6.0).
+
+Explore the [English overview][lap-en], [日本語][lap-ja] or [中文][lap-zh],
+and the [proposal overview on GitHub][lap-github].
+[AILEX is introduced as a product and use-case reference][ailex-reference]
+for legal practice workflows. The overview explains the proposed profile's
+registration and implementation status; product availability does not establish conformance.
+
+[lap-draft]: https://datatracker.ietf.org/doc/draft-ailex-vap-legal-ai-provenance/05/
+[lap-en]: https://veritaschain.org/vap/lap/
+[lap-ja]: https://veritaschain.org/vap/lap/ja/
+[lap-zh]: https://veritaschain.org/vap/lap/zh/
+[lap-github]: https://github.com/veritaschain/vap-spec/blob/main/proposals/legal-ai-profile/README.md
+[ailex-reference]: https://veritaschain.org/vap/lap/#ailex
+
+---
+
 ## 📄 Academic Reference (Preprint)
 
 Kamimura, T. (2025).  
@@ -83,7 +106,7 @@ Zenodo. https://zenodo.org/records/17920524
 
 ## 📜 Internet-Drafts (IETF)
 
-Five individual Internet-Drafts are active in the IETF Datatracker (checked 2026-10-25).
+The following five VSO individual Internet-Drafts are active in the IETF Datatracker (checked 2026-10-25).
 None has been adopted by an IETF Working Group.
 
 | Draft | Revision | Expires |
