@@ -83,6 +83,26 @@ and the [proposal overview on GitHub][lap-github].
 for legal practice workflows. The overview explains the proposed profile's
 registration and implementation status; product availability does not establish conformance.
 
+### AILEX relationship disclosure
+
+Tokachi Kamimura is the representative of both
+[AILEX LLC](https://ailex.co.jp/company/) and
+[VeritasChain Co., Ltd.](https://veritaschain.org/company/), which operates VSO.
+The [LAP -05 editor](https://datatracker.ietf.org/doc/draft-ailex-vap-legal-ai-provenance/05/)
+lists AILEX LLC / VSO as the affiliation. AILEX has a commercial interest in this
+product reference; it is not evidence of adoption by an independent third party.
+This listing does not establish LAP/VAP conformance, certification or an
+independently validated implementation.
+
+**日本語:** 上村十勝は、AILEX合同会社と、VSOを運営するVeritasChain株式会社の双方の代表です。
+LAP -05編集者の所属はAILEX LLC / VSOと記載されています。
+AILEXはこの製品紹介について商業上の利害を持ち、独立した第三者の採用例には当たりません。
+掲載はLAP/VAPへの適合、認証、独立検証済み実装を示すものではありません。
+
+**中文:** 上村十勝同时担任AILEX LLC及运营VSO的VeritasChain株式会社的代表。
+LAP -05编辑者将所属列为AILEX LLC / VSO。AILEX对本产品参考具有商业利益，
+因此不将本介绍作为独立第三方采用的证据，也不表示LAP/VAP符合性、认证或独立实现验证。
+
 [lap-draft]: https://datatracker.ietf.org/doc/draft-ailex-vap-legal-ai-provenance/05/
 [lap-en]: https://veritaschain.org/vap/lap/
 [lap-ja]: https://veritaschain.org/vap/lap/ja/
