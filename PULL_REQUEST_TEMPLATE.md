@@ -4,9 +4,9 @@
 
 ## Related Issue
 
-<!-- Link to the related issue (e.g., Fixes #123, Closes #456) -->
+<!-- Use "Refs #N". Do not use Fixes / Closes / Resolves for issues that track multi-step work: they close the issue automatically on merge. -->
 
-Fixes #
+Refs #
 
 ## Type of Change
 
