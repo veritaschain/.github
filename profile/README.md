@@ -32,7 +32,7 @@ These are separate statuses; publication is not independent validation or certif
 
 | Item | Confirmed public status |
 | --- | --- |
-| **VeritasChain Protocol (VCP)** | Finance profile; **v1.2 specification GA, 2026-07-06**. See the [canonical specification and known issues](https://github.com/veritaschain/vcp-spec). This does not establish production suitability of every implementation. |
+| **VeritasChain Protocol (VCP)** | Finance profile; **v1.2 specification GA; tag `v1.2.0`, 2026-10-09** (the 2026-07-06 GA declaration is historical). See the [canonical specification and known issues](https://github.com/veritaschain/vcp-spec). This does not establish production suitability of every implementation. |
 | **Verifiable AI Provenance Framework (VAP)** | **v1.2 Draft 3**. See the [framework repository](https://github.com/veritaschain/vap-spec). An individual Internet-Draft is not IETF adoption. |
 | **VAP-LAP — Legal AI Profile** | **Proposed domain profile**; individual Internet-Draft `-05`. [Overview and AILEX product/use-case reference](https://veritaschain.org/vap/lap/). |
 | **SDK interfaces and reference code** | [Interface specification](https://github.com/veritaschain/vcp-sdk-spec) and [VCP v1.1 reference implementation](https://github.com/veritaschain/vcp-rta-reference) are published. An [offline core for VCP v1.2](https://github.com/veritaschain/vcp-sdk) (v0.1.0, pre-release, first-party; Python, TypeScript, MQL5) is published on GitHub only. None of these is a certified SDK or a package-registry distribution. See the package-availability notice below. |
