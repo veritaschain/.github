@@ -34,7 +34,6 @@ These are separate statuses; publication is not independent validation or certif
 | --- | --- |
 | **VeritasChain Protocol (VCP)** | Finance profile; **v1.2 specification GA; tag `v1.2.0`, 2026-10-09** (the 2026-07-06 GA declaration is historical). See the [canonical specification and known issues](https://github.com/veritaschain/vcp-spec). This does not establish production suitability of every implementation. |
 | **Verifiable AI Provenance Framework (VAP)** | **v1.2 Draft 3**. See the [framework repository](https://github.com/veritaschain/vap-spec). An individual Internet-Draft is not IETF adoption. |
-| **VAP-LAP — Legal AI Profile** | **Proposed domain profile**; individual Internet-Draft `-05`. [Overview and AILEX product/use-case reference](https://veritaschain.org/vap/lap/). |
 | **SDK interfaces and reference code** | The [archived SDK interface repository](https://github.com/veritaschain/vcp-sdk-spec) retains the historical v1.0 Release Candidate and informative VCP v1.1 materials. The [VCP v1.1 reference implementation](https://github.com/veritaschain/vcp-rta-reference) is published. An [offline core for VCP v1.2](https://github.com/veritaschain/vcp-sdk) (unreleased development source; package metadata `0.1.0`; first-party; Python, TypeScript, MQL5) is published on GitHub only. None of these is a certified SDK or a package-registry distribution. See the package-availability notice below. |
 | **Explorer** | [API](https://github.com/veritaschain/vcp-explorer-api) and [GUI](https://github.com/veritaschain/vcp-explorer-gui) repositories are published; consult each repository's implementation status and setup instructions. |
 | **Research implementation and reproduction kit** | **Experimental and unadopted**. Kit `b1af0dc`; subject `c8ccf97`. Internal validation is recorded; **independent third-party reproduction has not been established**. |
@@ -70,12 +69,17 @@ or [日本語手順](https://github.com/veritaschain/vap-spec/blob/b1af0dc9d368b
 
 ---
 
-## VAP-LAP — Legal AI Profile (proposed)
+## Related proposal — Legal AI Profile (LAP)
 
 VAP-LAP proposes a domain profile for legal AI workflows, including consultation,
 document drafting, fact checking and human review. The published proposal is
 [draft-ailex-vap-legal-ai-provenance-05][lap-draft]
 (26 October 2026; profile version 0.6.0).
+
+**Registry boundary:** `VAP-LAP` is the proposal's label, not a registered VSO
+profile designation. LAP is outside the complete profile registry in VAP v1.2
+§4.5.2. “Proposed” describes this related work; it is not a status in that registry.
+Listing this proposal neither registers it nor changes the registry's status vocabulary.
 
 Explore the [English overview][lap-en], [日本語][lap-ja] or [中文][lap-zh],
 and the [proposal overview on GitHub][lap-github].
