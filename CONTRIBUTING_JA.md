@@ -60,12 +60,17 @@ VeritasChain Protocol（VCP）への貢献に興味をお持ちいただき、�
 
 ### 前提条件
 
-リポジトリによって、以下が必要になる場合があります：
+対応バージョンは、対象リポジトリのREADME、貢献ガイド、実行環境の宣言を確認してください。
+プロジェクトによって、以下のツールを使用します：
 
-- **Node.js 18+** と npm（TypeScriptプロジェクト用）
-- **Python 3.9+**（Pythonプロジェクト用）
+- **Node.js** と npm（TypeScript用。`package.json`のenginesと`.nvmrc`を確認）
+- **Python**（`pyproject.toml`の`requires-python`またはリポジトリの要件を確認）
 - **MetaTrader 5**（MQL5プロジェクト用）
 - **Git** バージョン管理用
+
+例えば、[Explorer API](https://github.com/veritaschain/vcp-explorer-api#quick-start)と
+[Explorer GUI](https://github.com/veritaschain/vcp-explorer-gui#prerequisites)は、それぞれ実行環境の要件を公開しています。
+[SDK](https://github.com/veritaschain/vcp-sdk#install)には、Python、TypeScript、MQL5別の導入手順があります。
 
 ### フォークとクローン
 
@@ -82,13 +87,10 @@ VeritasChain Protocol（VCP）への貢献に興味をお持ちいただき、�
 
 ### 依存関係のインストール
 
-```bash
-# Node.jsプロジェクトの場合
-npm install
-
-# Pythonプロジェクトの場合
-pip install -r requirements.txt
-```
+対象リポジトリの導入手順に従い、指定されたパッケージディレクトリで作業してください。
+ロックファイルがコミットされているnpmプロジェクトでは、記載された`npm ci`の手順を使用します。
+Pythonではrequirementsファイルを使う構成と、テスト用extrasを備えた`pyproject.toml`パッケージの構成があるため、
+そのリポジトリで定義された方法を使用してください。文書専用リポジトリには、実行時の依存関係がない場合もあります。
 
 ## 開発ワークフロー
 
@@ -118,15 +120,11 @@ git checkout -b fix/問題の説明
 
 ### テスト
 
-```bash
-# TypeScriptプロジェクト
-npm run lint
-npm run type-check
-npm run test
-
-# Pythonプロジェクト
-python -m pytest
-```
+対象リポジトリの貢献ガイドとCIで定義されたチェックを実行してください。
+npmパッケージのディレクトリでは、`npm run`で実在するスクリプトを確認できます。
+lint、型チェック、テスト前のビルド要件はプロジェクトごとに異なります。
+Pythonでは、記載されたテスト依存関係を導入し、そのプロジェクトのテストランナーを使用してください。
+リンクチェックや文書ビルドが用意されている場合は、それらで文書を検証します。
 
 ## スタイルガイドライン
 
@@ -238,7 +236,7 @@ ci: 自動テスト用GitHub Actionsワークフローを追加
 3. **明確なPR説明を書く**：
    - どのような変更が行われたか
    - なぜこれらの変更が行われたか
-   - 関連するIssue（`Fixes #123`で自動クローズ）
+   - 関連するIssue（継続中の作業には`Refs #123`を使い、Issue全体が解決した場合に限りクローズ用キーワードを使用）
 
 ### レビュープロセス
 

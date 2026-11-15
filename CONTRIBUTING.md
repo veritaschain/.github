@@ -60,12 +60,18 @@ Documentation improvements are always welcome:
 
 ### Prerequisites
 
-Depending on the repository, you may need:
+Use the selected repository's README, contribution guide and runtime declarations
+for supported versions. Shared tooling may include:
 
-- **Node.js 18+** and npm (for TypeScript projects)
-- **Python 3.9+** (for Python projects)
+- **Node.js** and npm (for TypeScript projects; check `package.json` engines and `.nvmrc`)
+- **Python** (for Python projects; check `requires-python` in `pyproject.toml` or the repository's requirements)
 - **MetaTrader 5** (for MQL5 projects)
 - **Git** for version control
+
+For example, the [Explorer API](https://github.com/veritaschain/vcp-explorer-api#quick-start)
+and [Explorer GUI](https://github.com/veritaschain/vcp-explorer-gui#prerequisites)
+publish their own runtime requirements. The [SDK](https://github.com/veritaschain/vcp-sdk#install)
+has separate Python, TypeScript and MQL5 setup instructions.
 
 ### Fork and Clone
 
@@ -82,13 +88,11 @@ Depending on the repository, you may need:
 
 ### Install Dependencies
 
-```bash
-# For Node.js projects
-npm install
-
-# For Python projects
-pip install -r requirements.txt
-```
+Follow the selected repository's installation instructions from the documented
+package directory. For npm projects with a committed lockfile, use the documented
+`npm ci` workflow. Python projects may use a requirements file or an installable
+`pyproject.toml` package with test extras; use the form that the repository defines.
+Documentation-only repositories may have no runtime dependencies.
 
 ## Development Workflow
 
@@ -118,15 +122,11 @@ Branch naming conventions:
 
 ### Testing
 
-```bash
-# TypeScript projects
-npm run lint
-npm run type-check
-npm run test
-
-# Python projects
-python -m pytest
-```
+Run the checks defined by the selected repository's contribution guide and CI.
+In an npm package directory, `npm run` lists the scripts that actually exist;
+linting, type checking and build-before-test requirements differ by project.
+For Python, install the documented test dependencies and use that project's test
+runner. Validate documentation links or builds when the repository provides those checks.
 
 ## Style Guidelines
 
@@ -238,7 +238,7 @@ ci: add GitHub Actions workflow for automated testing
 3. **Write a clear PR description**:
    - What changes were made
    - Why these changes were made
-   - Any related issues (use `Fixes #123` to auto-close)
+   - Related issues (use `Refs #123` for ongoing work; use a closing keyword only when the issue is fully resolved)
 
 ### Review Process
 
