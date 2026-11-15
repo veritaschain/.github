@@ -38,8 +38,10 @@ These are separate statuses; publication is not independent validation or certif
 | **Explorer** | [API](https://github.com/veritaschain/vcp-explorer-api) and [GUI](https://github.com/veritaschain/vcp-explorer-gui) repositories are published; consult each repository's implementation status and setup instructions. |
 | **Research implementation and reproduction kit** | **Experimental and unadopted**. Kit `b1af0dc`; subject `c8ccf97`. Internal validation is recorded; **independent third-party reproduction has not been established**. |
 
-The [September 2026 implementation disclosure](https://github.com/veritaschain/vap-spec#implementation-status-mandatory-disclosure)
-reports zero external implementations and zero Evidence Packs accepted in proceedings.
+The [implementation disclosure](https://github.com/veritaschain/vap-spec#implementation-status-mandatory-disclosure),
+reviewed on 11 November 2026, retains the counts published on 25 October 2026:
+zero external implementations and zero Evidence Packs accepted in proceedings.
+The review date does not assert a newly measured global count.
 **Correction — 24 October 2026:** the earlier commercial contract figure has not
 been substantiated by reconciliation with primary records and is withdrawn from
 current public claims pending review. This does not establish a count of zero.
@@ -156,7 +158,7 @@ vcp-spec/
  └─ spec/
     ├─ v1.2/   (current specification, GA)
     ├─ v1.1/   (legacy)
-    └─ v1.0/   (legacy)
+    └─ v1.0/   (legacy navigation page; English source at repository root)
 ```
 The [v1.2 GA specification snapshot](https://github.com/veritaschain/vcp-spec/tree/v1.2.0/spec/v1.2)
 is fixed by tag `v1.2.0` at the validated correction commit
@@ -164,7 +166,11 @@ is fixed by tag `v1.2.0` at the validated correction commit
 The tag does not target the earlier GA cutover PR #1 merge.
 See the [canonical repository](https://github.com/veritaschain/vcp-spec) for later editorial corrections and known issues.
 
-All other formats (HTML, PDF, translations) are non-normative.
+For v1.1 and v1.2, the English Markdown in the version directory is authoritative.
+The preserved v1.0 English source is
+[fixed at tag v1.0.0](https://github.com/veritaschain/vcp-spec/blob/v1.0.0/VCP-Specification-v1_0_en.md);
+`spec/v1.0/index.html` is a navigation page. Other formats (HTML, PDF, translations)
+are non-normative.
 
 ---
 

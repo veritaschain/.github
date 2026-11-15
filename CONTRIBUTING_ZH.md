@@ -60,12 +60,17 @@
 
 ### 先决条件
 
-根据存储库，您可能需要：
+请以目标存储库的 README、贡献指南和运行环境声明为准，确认支持的版本。
+项目可能使用以下工具：
 
-- **Node.js 18+** 和 npm（用于 TypeScript 项目）
-- **Python 3.9+**（用于 Python 项目）
+- **Node.js** 和 npm（用于 TypeScript；检查 `package.json` 的 engines 和 `.nvmrc`）
+- **Python**（检查 `pyproject.toml` 的 `requires-python` 或该存储库的要求）
 - **MetaTrader 5**（用于 MQL5 项目）
 - **Git** 用于版本控制
+
+例如，[Explorer API](https://github.com/veritaschain/vcp-explorer-api#quick-start)和
+[Explorer GUI](https://github.com/veritaschain/vcp-explorer-gui#prerequisites)各自公布运行环境要求。
+[SDK](https://github.com/veritaschain/vcp-sdk#install)分别提供 Python、TypeScript 和 MQL5 的安装说明。
 
 ### Fork 和克隆
 
@@ -82,13 +87,10 @@
 
 ### 安装依赖
 
-```bash
-# 对于 Node.js 项目
-npm install
-
-# 对于 Python 项目
-pip install -r requirements.txt
-```
+请按目标存储库的安装说明，在指定的包目录中操作。
+对于提交了锁文件的 npm 项目，使用其文档规定的 `npm ci` 流程。
+Python 项目可能使用 requirements 文件，也可能使用带测试 extras 的可安装 `pyproject.toml` 包；
+请采用该存储库定义的方式。纯文档存储库可能没有运行时依赖。
 
 ## 开发工作流程
 
@@ -118,15 +120,10 @@ git checkout -b fix/问题描述
 
 ### 测试
 
-```bash
-# TypeScript 项目
-npm run lint
-npm run type-check
-npm run test
-
-# Python 项目
-python -m pytest
-```
+请运行目标存储库的贡献指南和 CI 定义的检查。
+在 npm 包目录中，`npm run` 会列出实际存在的脚本；lint、类型检查以及测试前的构建要求因项目而异。
+对于 Python，请安装文档指定的测试依赖，并使用该项目的测试运行器。
+如果存储库提供链接检查或文档构建，请使用这些检查验证文档。
 
 ## 风格指南
 
@@ -238,7 +235,7 @@ ci: 添加用于自动化测试的 GitHub Actions 工作流
 3. **编写清晰的 PR 描述**：
    - 做了哪些更改
    - 为什么做这些更改
-   - 任何相关问题（使用 `Fixes #123` 自动关闭）
+   - 相关问题（持续进行的工作使用 `Refs #123`；仅当整个问题已解决时使用自动关闭关键词）
 
 ### 审查流程
 
