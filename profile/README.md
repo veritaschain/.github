@@ -146,6 +146,11 @@ None has been adopted by an IETF Working Group.
 Individual submissions are works in progress. They are not RFCs or IETF-endorsed
 standards and have no formal standing in the IETF standards process.
 
+Every message VSO has sent to the IETF SCITT mailing list is listed, with notes on
+wording VSO no longer uses, in the
+[SCITT mailing-list activity record](https://veritaschain.org/standardization/ietf-activity/).
+Mailing-list participation is individual participation, not Working Group adoption.
+
 ---
 
 ## 📌 Canonical Specification
