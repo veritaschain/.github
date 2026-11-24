@@ -132,13 +132,13 @@ Zenodo. https://zenodo.org/records/17920524
 
 ## 📜 Internet-Drafts (IETF)
 
-The following five VSO individual Internet-Drafts are active in the IETF Datatracker (checked 2026-11-23).
+The following five VSO individual Internet-Drafts are active in the IETF Datatracker (checked 2026-11-24).
 None has been adopted by an IETF Working Group.
 
 | Draft | Revision | Expires |
 | --- | --- | --- |
 | [`draft-kamimura-vap-framework`](https://datatracker.ietf.org/doc/draft-kamimura-vap-framework/) | -03 (2026-11-15) | 2027-05-19 |
-| [`draft-kamimura-scitt-vcp`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/) | -06 (2026-11-20) | 2027-05-24 |
+| [`draft-kamimura-scitt-vcp`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-vcp/) | -07 (2026-11-24) | 2027-05-28 |
 | [`draft-kamimura-rats-behavioral-evidence`](https://datatracker.ietf.org/doc/draft-kamimura-rats-behavioral-evidence/) | -03 (2026-11-20) | 2027-05-24 |
 | [`draft-kamimura-scitt-refusal-events`](https://datatracker.ietf.org/doc/draft-kamimura-scitt-refusal-events/) | -04 (2026-10-24) | 2027-04-27 |
 | [`draft-vso-cpp-core`](https://datatracker.ietf.org/doc/draft-vso-cpp-core/) | -04 (2026-10-24) | 2027-04-27 |
